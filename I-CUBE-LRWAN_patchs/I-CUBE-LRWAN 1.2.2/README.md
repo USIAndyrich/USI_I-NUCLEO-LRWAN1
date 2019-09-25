@@ -8,25 +8,25 @@ http://www.st.com/en/embedded-software/i-cube-lrwan.html
 
 [2] unzip the downloaded "en.i-cube_lrwan_2.2.0.zip" and patch the two files below:
 
-	a. stm32l0xx_hw_conf.h
+  a. stm32l0xx_hw_conf.h
 	
-	  1. download the corrected "stm32l0xx_hw_conf.h" for I-NUCLEO-LRWAN1 from the link below:
+   1. download the corrected "stm32l0xx_hw_conf.h" for I-NUCLEO-LRWAN1 from the link below:
 	  
-  	 https://github.com/USIAndyrich/USI_I-NUCLEO-LRWAN1/blob/master/I-CUBE-LRWAN_patchs/I-CUBE-LRWAN%201.2.2/stm32l0xx_hw_conf.h
+   https://github.com/USIAndyrich/USI_I-NUCLEO-LRWAN1/blob/master/I-CUBE-LRWAN_patchs/I-CUBE-LRWAN%201.2.2/stm32l0xx_hw_conf.h
       
-	  2. overwrite the file in the path below
+   2. overwrite the file in the path below
 	  
-	     STM32CubeExpansion_LRWAN_V1.2.2\Projects\STM32L053R8-Nucleo\Applications\LoRa\End_Node\Core\inc\stm32l0xx_hw_conf.h
+   STM32CubeExpansion_LRWAN_V1.2.2\Projects\STM32L053R8-Nucleo\Applications\LoRa\End_Node\Core\inc\stm32l0xx_hw_conf.h
 
-	b. sx1272mb2das.c
+  b. sx1272mb2das.c
 	
-	  1. download the corrected "sx1272mb2das.c" for I-NUCLEO-LRWAN1 from the link below:
+   1. download the corrected "sx1272mb2das.c" for I-NUCLEO-LRWAN1 from the link below:
 	  
-     https://github.com/USIAndyrich/USI_I-NUCLEO-LRWAN1/blob/master/I-CUBE-LRWAN_patchs/I-CUBE-LRWAN%201.2.2/sx1272mb2das.c
+   https://github.com/USIAndyrich/USI_I-NUCLEO-LRWAN1/blob/master/I-CUBE-LRWAN_patchs/I-CUBE-LRWAN%201.2.2/sx1272mb2das.c
       
-	  2. overwrite the file in the path below
+   2. overwrite the file in the path below
 	  
-	     STM32CubeExpansion_LRWAN_V1.2.2\Drivers\BSP\SX1272MB2DAS\sx1272mb2das.c
+   STM32CubeExpansion_LRWAN_V1.2.2\Drivers\BSP\SX1272MB2DAS\sx1272mb2das.c
 
 
 [3] Build & Test EndNode Demo Application
