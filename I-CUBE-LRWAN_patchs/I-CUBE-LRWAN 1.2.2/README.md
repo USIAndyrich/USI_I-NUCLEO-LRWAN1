@@ -12,7 +12,7 @@ http://www.st.com/en/embedded-software/i-cube-lrwan.html
 	
 	  1. download the corrected "stm32l0xx_hw_conf.h" for I-NUCLEO-LRWAN1 from the link below:
 	  
-	  	 https://github.com/USIAndyrich/USI_I-NUCLEO-LRWAN1/blob/master/I-CUBE-LRWAN_patchs/I-CUBE-LRWAN%201.2.2/stm32l0xx_hw_conf.h
+  	 https://github.com/USIAndyrich/USI_I-NUCLEO-LRWAN1/blob/master/I-CUBE-LRWAN_patchs/I-CUBE-LRWAN%201.2.2/stm32l0xx_hw_conf.h
       
 	  2. overwrite the file in the path below
 	  
@@ -22,7 +22,7 @@ http://www.st.com/en/embedded-software/i-cube-lrwan.html
 	
 	  1. download the corrected "sx1272mb2das.c" for I-NUCLEO-LRWAN1 from the link below:
 	  
-	     https://github.com/USIAndyrich/USI_I-NUCLEO-LRWAN1/blob/master/I-CUBE-LRWAN_patchs/I-CUBE-LRWAN%201.2.2/sx1272mb2das.c
+     https://github.com/USIAndyrich/USI_I-NUCLEO-LRWAN1/blob/master/I-CUBE-LRWAN_patchs/I-CUBE-LRWAN%201.2.2/sx1272mb2das.c
       
 	  2. overwrite the file in the path below
 	  
